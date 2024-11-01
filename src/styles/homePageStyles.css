@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* justify-content: center; */
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.formInput {
+  min-width: 200px;
+  width: 450px;
+  width: 35%;
+  flex: 1 1 auto;
+  padding: 5px;
+  max-height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.formInfo {
+  min-width: 300px;
+  width: 60%;
+  flex: 2 1 auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  background-color: gray;
+}
+
+.title {
+  background-color: gray;
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 10px;
+}
+.title:hover {
+  cursor: pointer;
+}
+
+.content {
+  background-color: gray;
+  font-size: large;
+  padding: 10px;
+}
+
+input {
+  font-size: large;
+  padding: 5px;
+}
+
+.add {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+
+button:hover {
+  transform: scale(1.02);
+}

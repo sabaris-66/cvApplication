@@ -1,0 +1,29 @@
+.educationSec {
+  display: flex;
+  flex-direction: column;
+}
+
+.eDropDown {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.eDropDown:hover {
+  cursor: pointer;
+}
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+}
+
+.subTitle {
+  font-weight: bolder;
+  font-size: larger;
+}

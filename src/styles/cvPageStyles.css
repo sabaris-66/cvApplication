@@ -1,0 +1,49 @@
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+h2 {
+  background-color: #454545;
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.belowHead {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: large;
+}
+
+.educationSide {
+  padding: 40px 40px 5px 40px;
+}
+
+.experienceSide {
+  padding: 5px 40px 10px 40px;
+}
+
+.educationInfo,
+.experienceInfo {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  font-size: large;
+}
+
+.edLeft,
+.edRight,
+.exLeft,
+.exRight {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,33 @@
+.experienceSec {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: auto;
+}
+
+.exDropDown {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.exDropDown:hover {
+  cursor: pointer;
+}
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+}
+
+.subTitle {
+  font-weight: bolder;
+  font-size: larger;
+}

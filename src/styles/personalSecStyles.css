@@ -1,0 +1,23 @@
+.personalSec {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: auto;
+}
+
+.pDropDown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pDrop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+}
